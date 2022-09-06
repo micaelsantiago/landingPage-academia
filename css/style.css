@@ -1,91 +1,101 @@
-/* RESET CONFIG */
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box
 }
 
-html {
-	width: 100vw;
-	height: 100vh;
-	font-family: 'Montserrat', sans-serif;
-}
-
-/* BODY */
 body { 
+	font-family: 'Montserrat', sans-serif;
 	background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 0.9)), url(../img/background.jpg);	
 	background-size: cover;
-	background-repeat: no-repeat;
-	color: white;
+	height: 100vh;
+	color: white
 }
 
-
-/* HEADER */
 header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	margin: 30px;
-	padding: 0 50px;
+	padding: 1.5rem
 }
 
 header h1 {
-	font-weight: 400;
+	font-weight: 400
 }
 
 header h1 span {
-	font-weight: 200;
+	font-weight: 200
 }
 
 header nav a {
-	margin: 0 12px;
+	display: inline-block;
 	text-decoration: none; 
 	text-transform: uppercase;
 	color: white;
-	padding: 12px;
-	transition: 0.6s;
-	border-radius: 10px;
+	padding: 1rem;
+	transition: all 0.6s linear;
+	border-radius: 10px
 }
 
 header nav a:hover {
-	background: rgb(38, 38, 38);
+	background: rgb(38, 38, 38)
 }
 
-/* MAIN */
 .content {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30vh;
-    text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+
+	text-align: center
 }
 
 .content h2 {
 	text-transform: uppercase;
-	margin-bottom: 12px;
+	margin-bottom: 12px
 }
 
 .content p {
 	font-weight: 200;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
 
 .content .btn {
-	cursor: pointer;
-	margin: 50px;
-}
+	display: inline-block;
+	margin: 2rem 0;
+	padding: 1rem;
 
-.content .btn a {
-	color: white;
+	color: #FFF;
 	text-decoration: none;
-	border: 2px solid #4a4a4a;
-	border-radius: 5px;
-	padding: 20px 20px;
-	transition: 0.6s;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+
+	transition: all 0.4s linear
 }
 
-.content .btn a:hover {
+.content .btn:hover {
 	background: white;
 	color: #4a4a4a;
-	border: white;
+	border-color: white
+}
+
+@media (max-width: 425px) {
+	body {
+		font-size: 14px;
+	}
+
+	header nav {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	header {
+		flex-direction: column
+	}
+
+	header nav {
+		margin-top: 1rem
+	}
 }
