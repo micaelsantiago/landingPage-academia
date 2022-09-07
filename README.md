@@ -22,7 +22,7 @@ index.hmtl
   <tr>
     <td align="center">
       <a href="http://github.com/micaelsantiago">
-        <img src="https://avatars.githubusercontent.com/u/83787168?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/83787168?v=4" width="100px;" alt="Foto de Micael Santiago no GitHub"/><br>
         <sub>
           <b>micaelsantiago</b>
         </sub>
