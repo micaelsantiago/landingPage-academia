@@ -12,7 +12,7 @@ Projeto de uma landing page simples e adaptativa para academias.
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário baixar e extrair o projeto, depois abrir o arquivo "index.html".
 ```
-index.hmtl
+index.html
 ```
 
 ![Foto do projeto rodando](/screenshot.png)
